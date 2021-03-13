@@ -28,6 +28,3 @@ jobs:
         if: env.BAIDU_COOKIE
         run: |
           node Task/baidu_speed.js
-        env:
-          BAIDU_CASH: ${{ secrets.BAIDU_CASH }}
-          BAIDU_TASK: ${{ secrets.BAIDU_TASK }}
